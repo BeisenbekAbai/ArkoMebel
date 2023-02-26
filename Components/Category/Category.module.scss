@@ -1,0 +1,75 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 1520px;
+    position: relative;
+}
+.name{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    height: 60px;
+    background-color: rgb(0, 0, 0, 0);
+    width: 191px;
+    position: relative;
+    z-index: 1;
+    transition-property: color;
+    transition-duration: 250ms;
+}
+.activeName{
+    transition-delay: 250ms;
+    color: white;
+}
+.blueSquare{
+    width: 12.4%;
+    height: 60px;
+    background-color: var(--dark-blue);
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    z-index: 0;
+    transition-property: left;
+    transition-duration: 500ms;
+}
+.dropDownList{
+    height: 0;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 5px;
+    transition-property: height;
+    transition-duration: 250ms;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.1);
+    &__active{
+        transition-delay: 250ms;
+    }
+}
+.listItem{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    width: 217px;
+    height: 47px;
+    background-color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1D1818;
+    cursor: pointer;
+    &__active{
+        color: #4d61bb;
+    }
+}
+@media (max-width: 1560px){
+    .wrapper{
+        width: 1366px;
+    }
+    .name{
+        font-size: 17.5px;
+        width: 167.2px;
+    }
+    .listItem{
+        font-size: 15.7px;
+        width: 195px;
+    }
+}

@@ -1,0 +1,74 @@
+.wrapper{
+    width: 1520px;
+    margin-top: 42px;
+    display: flex;
+}
+.article{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: white;
+    background-color: rgb(0, 0, 0, 0);
+}
+.link{
+    margin-top: 25px;
+    background-color: rgb(0, 0, 0, 0);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+}
+.leftSide{
+    width: 365px;
+}
+.number{
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    background-color: rgb(0, 0, 0, 0);
+    color: white;
+}
+.properties{
+    margin-top: 6px;
+    &__row{
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__option{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: white;
+    }
+    &__value{
+        width: 224px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 23px;
+        color: white;
+        background-color: rgb(0, 0, 0, 0);
+    }
+}
+.instagram{
+    margin-top: 32px;
+    &__button{
+        margin-top: 16px;
+        background-color: rgb(0, 0, 0, 0);
+    }
+}
+.other{
+    width: 1155px;
+    margin-left: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.trademark{
+    margin: 79px 0px 45px 0px;
+    width: 1520px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: white;
+}

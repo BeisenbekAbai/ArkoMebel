@@ -1,0 +1,115 @@
+.wrapper{
+    max-width: 1520px;
+}
+.link:active,
+.link:hover, 
+.link {
+    text-decoration: none;
+    color: #1D1818;
+}
+.red:active,
+.red:hover, 
+.red {
+    text-decoration: none;
+    color: var(--red);
+}
+.areaBtn{
+    background-color: rgb(0, 0, 0, 0);
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 351px;
+    padding-top: 8px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.phoneIcon{
+    position: relative;
+    top: 5px;
+}
+.number{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+}
+.navpanel{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    height: 55px;
+    &__part1{
+        display: flex;
+    }
+    &__part2{
+        display: flex;
+        justify-content: space-between;
+        width: 236px;
+        padding-top: 8px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
+.row2{
+    display: grid;
+    grid-template: [start] 'Logo Adress Search Number ETC' 93px [end] / minmax(150px, 250px) minmax(227px, 294px) minmax(296px, 368px) minmax(204px, 309px);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    &__logotype{
+        display: flex;
+        align-items: center;
+    }
+    &__adress{
+        display: flex;
+        align-items: center;
+    }
+    &__search{
+        display: flex;
+        align-items: center;
+    }
+    &__wrapper_number{
+        display: flex;
+        align-items: center;
+    }
+    &__number{
+        display: flex;
+    }
+    &__numberNspan{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__etc{
+        display: flex;
+        justify-content: space-between;
+        min-width: 277px;
+    }
+    &__1btn{
+        margin-top: 19px;
+    }
+    &__2btn{
+        margin-top: 20px;
+    }
+    &__3btn{
+        margin-top: 10px;
+    }
+}
+.wrapper2{
+    width: 100%;
+    background-color: var(--cyan);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.backgroundBlock{
+    background-color: rgb(0, 0, 0, 0);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+@media (max-width: 1560px){
+    .wrapper{
+        max-width: 1366px;
+    }
+}
